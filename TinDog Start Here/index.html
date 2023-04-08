@@ -28,9 +28,9 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item"><a class="nav-link" href="http://www.gmail.com">Contact</a></li>
-                <li class="nav-item"><a class="nav-link" href="http://www.gmail.com">Pricing</a></li>
-                <li class="nav-item"><a class="nav-link" href="http://www.gmail.com">Download</a></li>
+                <li class="nav-item"><a class="nav-link" href="#footer">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+                <li class="nav-item"><a class="nav-link" href="#cta">Download</a></li>
             </ul>
         </div>
     </nav>
@@ -184,21 +184,25 @@
 
 <!-- Call to Action -->
 
-<section id="cta">
+<section id="cta" class="cta">
 
-    <h3>Find the True Love of Your Dog's Life Today.</h3>
-    <button type="button">Download</button>
-    <button type="button">Download</button>
+    <h3 class="cta__title">Find the True Love of Your Dog's Life Today.</h3>
+    <button type="button" class="btn btn-dark btn-lg cta__btn"><i class="bi bi-apple"></i> Download</button>
+    <button type="button" class="btn btn-outline-light btn-lg cta__btn"><i class="bi bi-google-play"></i> Download</button>
 
 </section>
 
 
 <!-- Footer -->
 
-<footer id="footer">
-
-    <p>© Copyright 2018 TinDog</p>
-
+<footer id="footer" class="footer">
+    <div class="footer__social-icons">
+        <a href="http://www.twitter.com" class="footer__social-icon"><i class="bi bi-twitter"></i></a>
+        <a href="http://www.instagram.com" class="footer__social-icon"><i class="bi bi-instagram"></i></a>
+        <a href="http://www.facebook.com" class="footer__social-icon"><i class="bi bi-facebook"></i></a>
+        <a href="http://www.gmail.com" class="footer__social-icon"><i class="bi bi-envelope-fill"></i></a>
+    </div>
+    <p class="footer__copyright">© Copyright 2018 TinDog</p>
 </footer>
 
 
