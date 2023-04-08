@@ -1,5 +1,5 @@
 **100 Days of Code**
-# day58_python_bootstrap
+- Day 58 - Bootstrap CSS Framework
 This repository contains my code from Angela Yu's 100 Days of Python where we used bootstrap to build a website. 
 
 **Link to Project**
