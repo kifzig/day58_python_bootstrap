@@ -11,7 +11,7 @@ h1 {
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 10%;
 }
 
 
@@ -42,6 +42,16 @@ h1 {
 .title-image {
     width: 60%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+
+}
+
+.features {
+    background-color: #FFF;
+    position: relative;
+    z-index: 1;
+
 }
 
 .selling-points {
@@ -75,7 +85,6 @@ h1 {
 }
 
 #testimonials {
-  padding: 4.5rem;
   text-align: center;
   background-color: #ef8172;
   color: #FFF;
@@ -86,13 +95,16 @@ h1 {
     font-size: 3rem;
     line-height: 1.5;
     font-weight: 500;
-    padding: 0 3rem;
 }
 
 .testimonial__image {
     border-radius: 100%;
     margin: 20px;
     width: 10%;
+}
+
+.carousel-item {
+    padding: 7% 15%;
 }
 
 .testimonial__caption {
@@ -108,4 +120,18 @@ h1 {
 .press__logo {
   width: 15%;
   margin: 20px 20px 50px;
+}
+
+/*Pricing Section */
+.pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing__title {
+    font-weight: 900;
+}
+
+.pricing__column {
+  padding: 3% 2%;
 }
